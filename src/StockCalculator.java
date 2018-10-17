@@ -32,11 +32,11 @@ public class StockCalculator
 		double com1 = buy/comRateP;
 		double com2 = sell/comRateS;
 		double net = sell-buy-com1-com2;
-		System.out.print("Total paid for " + shareNum + " shares: $" + buy);
-		System.out.print("Commission on purchase: $" + com1);
-		System.out.print("Total sale price for " + shareNum + "shares: $" + sell);
-		System.out.print("Commission on sale: $" + com2);
-		System.out.print("Net gain/loss: $" + net);
+		System.out.println("Total paid for " + shareNum + " shares: $" + buy);
+		System.out.println("Commission on purchase: $" + com1);
+		System.out.println("Total sale price for " + shareNum + " shares: $" + sell);
+		System.out.println("Commission on sale: $" + com2);
+		System.out.println("Net gain/loss: $" + net);
 		
 
 	}
